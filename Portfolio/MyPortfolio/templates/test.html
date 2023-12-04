@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ko">
     <head>
+        <meta charset="utf-8">
+
+        {% load static %}    
+        <link href = "{% static 'bootstrap/css' %}" rel = "stylesheet" type="text/css">
+        <link href = "{% static 'bootstrap/js' %}" rel = "stylesheet" type="text/js">
 
     </head>
 
     <body>    
-        <title>
-            Hello, World!
-        </title>
         
-        <div> 
-            {% for test in tests %}
+
+        <title>
+            My Portfolio
+        </title>
+        <H1>
+            Hello, World! 
+        </H1>
+       
+        {% for test in tests %}
             <div>
-                test.title
+                {{ test.title }} 
             </div>
-            {% endfor%}
-        <div>
+            <div>  
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                {{ test.description }}
+            </div>
+            <div>    
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                {{ test.created }}
+            </div>
+            <br>
+        {% endfor %}
+
+
+        
     </body>
 </html>
