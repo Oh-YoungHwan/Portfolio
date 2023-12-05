@@ -6,4 +6,4 @@ from .models import admin_post
 def test(request) :
     tests = admin_post.objects.all
 
-    return render(request, "test.html", {"tests":tests})
+    return render(request, "main.html", {"tests":tests})
