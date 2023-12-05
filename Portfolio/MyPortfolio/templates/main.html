@@ -53,23 +53,26 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                            <div class="features-icons-icon d-flex" style="text-align: center;">
+                                <img class="bi-layers m-auto text-primary" src={% static "bootstrap/startbootstrap/assets/img/icons8-python.png" %} alt="..." />
+                            </div>
+                            <p class="lead mb-0">Python을 주력으로 다루며 TensorFlow를 이용해 Machine-Learning을 구조화 할 수 있습니다. </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3>Bootstrap 5 Ready</h3>
-                            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                            <div class="features-icons-icon d-flex">
+                                <img class="bi-layers m-auto text-primary" src={% static "bootstrap/startbootstrap/assets/img/icons8-django.png" %} alt="..." />
+                            </div>
+                            <p class="lead mb-0">Django를 이용하여 간단한 웹 페이지를 제작할 수 있습니다.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                            <h3>Easy to Use</h3>
-                            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                            <div class="features-icons-icon d-flex">
+                                <img class="bi-layers m-auto text-primary" src={% static "bootstrap/startbootstrap/assets/img/icons8-sql.png" %} alt="..." />
+                            </div>
+                            <p class="lead mb-0">Dbeaver을 통해 SQL문을 작성할 수 있습니다.</p>
                         </div>
                     </div>
                 </div>
@@ -81,21 +84,21 @@
                 <div class="row g-0">
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url({% static 'bootstrap/startbootstrap/assets/img/bg-showcase-1.jpg' %})"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Fully Responsive Design</h2>
+                        <h2>Python</h2>
                         <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
                     </div>
                 </div>
                 <div class="row g-0">
                     <div class="col-lg-6 text-white showcase-img" style="background-image: url({% static 'bootstrap/startbootstrap/assets/img/bg-showcase-2.jpg' %})"></div>
                     <div class="col-lg-6 my-auto showcase-text">
-                        <h2>Updated For Bootstrap 5</h2>
+                        <h2>Django</h2>
                         <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
                     </div>
                 </div>
                 <div class="row g-0">
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url({% static 'bootstrap/startbootstrap/assets/img/bg-showcase-3.jpg' %})"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Easy to Use & Customize</h2>
+                        <h2>SQL</h2>
                         <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
                     </div>
                 </div>
@@ -154,21 +157,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
-                        <ul class="list-inline mb-2">
-                            <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-notion.png"%} width="20px;">
-                            <li class="list-inline-item"><a href="https://www.notion.so/8cf3caa9ec124cca9d95ca4544a669ae" target="_blank">
-                                Notion
-                            </a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-github.png"%} width="20px;">
-                            <li class="list-inline-item"><a href="https://github.com/khb3254/jeju_cgc_2023" target="_blank">
-                                Gitgub
-                            </a></li>
-                        </ul>
+                
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item me-4">
+                                <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-notion.png"%} width="20px;">
+                                <li class="list-inline-item"><a href="https://www.notion.so/8cf3caa9ec124cca9d95ca4544a669ae" target="_blank">
+                                    Notion
+                                </a></li>
+                                <li class="list-inline-item">⋅</li>
+                                <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-github.png"%} width="20px;">
+                                <li class="list-inline-item"><a href="https://github.com/khb3254/jeju_cgc_2023" target="_blank">
+                                    Gitgub
+                                </a></li>
+
+                                <br>
+
                                 <img src = {% static "bootstrap/startbootstrap/assets/img/dol.png"%} width="35px;">
                                 <li class="list-inline-item"><a href="https://jeju.pythonanywhere.com/" target="_blank">
                                     Jeju_Web
@@ -181,15 +186,16 @@
                                 </li>
                             </li>
                         </ul>
-
-                        <br>
-                        
-                        <p class="text-muted small mb-4 mb-lg-0"> | &copy; | My-Portfolio | 2023 |
-                        </p>
+      
                     </div>
                 </div>
             </div>
+            <br>
+            <div style="text-align: center;">
+                <p class="text-muted small mb-4 mb-lg-0"> | &copy; | My-Portfolio | 2023 | </p>
+            </div>
         </footer>
+        
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
