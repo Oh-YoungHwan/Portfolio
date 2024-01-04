@@ -3610,7 +3610,7 @@ textarea.form-control-lg {
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
-  --bs-nav-link-disabled-color: #6c757d;
+  --bs-nav-link-disabled-color: #6c757f;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -10847,10 +10847,7 @@ header.masthead {
   padding-bottom: 8rem;
 }
 
-#Start {
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
-}
+
 
 header.masthead:before {
   content: "";
