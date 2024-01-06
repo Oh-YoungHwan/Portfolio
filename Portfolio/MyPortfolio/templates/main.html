@@ -62,6 +62,11 @@
                             <img class="img-fluid rounded-circle mb-3" src={% static "bootstrap/startbootstrap/assets/img/character.png" %} alt="프로필아이콘" />
                             <h5>오영환</h5>
                             캐글 대회 출전, 링크 추가
+                            <br>
+                            <br>
+                            {% for d in data %}
+                                {{d.disallow}}
+                            {% endfor %}
                             <p class="font-weight-light mb-0">"----"</p>
                         </div>
                     </div>

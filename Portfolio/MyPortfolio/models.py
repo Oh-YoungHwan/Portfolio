@@ -11,3 +11,12 @@ class admin_post(models.Model):
 
     def __str__(self):
         return self.title
+    
+class RobotsTxt(models.Model):
+    id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
+    user_agent = models.CharField(db_column='User_agent', max_length=25)  # Field name made lowercase.
+    disallow = models.CharField(db_column='Disallow', max_length=200)  # Field name made lowercase.
+
+    class Meta:
+        managed = False
+        db_table = 'robots_txt'

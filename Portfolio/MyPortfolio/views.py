@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .models import admin_post
+from .models import RobotsTxt
 
 # Create your views here.
 
-def test(request) :
-    tests = admin_post.objects.all
+def keytalk(request) :
+    data = RobotsTxt.objects.all()
 
-    return render(request, "main.html", {"tests":tests})
+    return render(request, "main.html", {"data" : data})
