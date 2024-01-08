@@ -17,6 +17,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href= {% static "bootstrap/startbootstrap/css/styles.css" %} rel="stylesheet" />
+        
     
     </head>
     <body>
@@ -61,13 +62,8 @@
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0" >
                             <img class="img-fluid rounded-circle mb-3" src={% static "bootstrap/startbootstrap/assets/img/character.png" %} alt="프로필아이콘" />
                             <h5>오영환</h5>
-                            캐글 대회 출전, 링크 추가
-                            <br>
-                            <br>
-                            {% for d in data %}
-                                {{d.disallow}}
-                            {% endfor %}
-                            <p class="font-weight-light mb-0">"----"</p>
+                           
+                            <p class="font-weight-light mb-0"></p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -115,22 +111,158 @@
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url({% static 'bootstrap/startbootstrap/assets/img/python.jpg' %})"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Python</h2>
-                        <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+                        
+                        <nav class="navbar_ ">
+                            <ul class="navbar_button">
+                                <li class="undot">
+                                    <a> 
+                                        <p class="lead mb-0">저는 6개월의 국비 수업으로부터 파이썬의 기본적인 기술을 익혔습니다. 수업을 통해 장고를 이용한 웹페이지 개발, Dbeaver을 이용한 SQL문법, 판다스와 넘파이를 이용한 데이터 분석, 크롤링을 이용한 데이터 수집, Tensorflow의 keras를 이용한 머신러닝을 익혔습니다. ▼ 
+                                        </p>
+                                    </a>
+                                    <ul class="navbar_hidden">
+                                        <li>
+                                            <a href="javascript:openPop_python()">
+                                                <div>
+                                                    Keytalk-Crawling : Code
+                                                </div>
+                                            </a>
+                                            <div class="popup_layer" id="popup_layer_python" style="display: none;" onmouseleave="closePop_python()">
+                                              <div class="popup_box">
+                                                  <div style="height: 10px; width: 375px; float: top;">
+                                                    <a href="javascript:closePop_python();" id="closepop"><img src={% static "bootstrap/startbootstrap/assets/img/ic_close.svg" %} class="m_header-banner-close" width="30px" height="30px"></a>
+                                                  </div>
+                                                  <!--팝업 컨텐츠 영역-->
+                                                  <div class="popup_cont" id="popup_cont">
+                                                      <h5> Keytalk-Crawling </h5>
+                                                        <p>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Crawling/crawling_keytalk_0.png" %}>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Crawling/crawling_keytalk_1.png" %}>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Crawling/crawling_keytalk_2.png" %}>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Crawling/crawling_keytalk_3.png" %}>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Crawling/crawling_keytalk_4.png" %}>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Crawling/crawling_keytalk_5.png" %}>
+                                                        
+                                                        </p>
+                                                    </div>
+                                                  <!--팝업 버튼 영역-->
+                                                  <div class="popup_btn" style="float: bottom; margin-top: 10px;">
+                                                      <a href="javascript:closePop_python();">닫기</a>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="row g-0">
                     <div class="col-lg-6 text-white showcase-img" style="background-image: url({% static 'bootstrap/startbootstrap/assets/img/django.jpg' %})"></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2>Django</h2>
-                        <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
+
+                        <nav class="navbar_ ">
+                            <ul class="navbar_button">
+                                <li class="undot">
+                                    <a> 
+                                        <p class="lead mb-0">장고와 부트스트랩을 이용하여 웹페이지를 구현할 수 있습니다. 현재 페이지 역시 직접 제작하였으며, pythonanywhere을 통해 배포하였습니다. ▼ </p>
+                                    </a>
+                                    <ul class="navbar_hidden">
+                                        <li>
+                                            <a href="javascript:openPop_Django()">
+                                                <div>
+                                                    Django : Code
+                                                </div>
+                                            </a>
+                                            <div class="popup_layer" id="popup_layer_Django" style="display: none;" onmouseleave="closePop_Django()">
+                                              <div class="popup_box">
+                                                  <div style="height: 10px; width: 375px; float: top;">
+                                                    <a href="javascript:closePop_Django();" id="closepop"><img src={% static "bootstrap/startbootstrap/assets/img/ic_close.svg" %} class="m_header-banner-close" width="30px" height="30px"></a>
+                                                  </div>
+                                                  <!--팝업 컨텐츠 영역-->
+                                                  <div class="popup_cont" id="popup_cont">
+                                                      <h5> Django : HTML </h5>
+                                                        <p>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Django/Django_0.png" %}>
+                                                        
+                                                        </p>         
+
+                                                        <p></p>
+
+                                                    <h5> Django : Model </h5>
+                                                        <p>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Django/Django_1.png" %}>
+                                                        
+                                                        </p>
+                                                        <p></p>
+                                                        
+                                                    <h5> Django : View </h5>
+                                                        <p>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/Django/Django_2.png" %}>
+                                                        
+                                                        </p>
+                                                    </div>
+                                                  <!--팝업 버튼 영역-->
+                                                  <div class="popup_btn" style="float: bottom; margin-top: 10px;">
+                                                      <a href="javascript:closePop_Django();">닫기</a>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+
                     </div>
                 </div>
                 <div class="row g-0">
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url({% static 'bootstrap/startbootstrap/assets/img/sql.jpg' %})"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>SQL</h2>
-                        <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+
+                        <nav class="navbar_ ">
+                            <ul class="navbar_button">
+                                <li class="undot">
+                                    <a> 
+                                        <p class="lead mb-0">Dbeaver을 이용해 SQL문을 작성할 수 있습니다. 현재 데이터베이스는 기존의 SQLite에서 MySQL로 변경된 상태입니다. ▼ </p>
+                                    </a>
+                                    <ul class="navbar_hidden">
+                                        <li>
+                                            <a href="javascript:openPop_DB()">
+                                                <div>
+                                                    DB : Code
+                                                </div>
+                                            </a>
+                                            <div class="popup_layer" id="popup_layer_DB" style="display: none;" onmouseleave="closePop_DB()">
+                                              <div class="popup_box">
+                                                  <div style="height: 10px; width: 375px; float: top;">
+                                                    <a href="javascript:closePop_DB();" id="closepop"><img src={% static "bootstrap/startbootstrap/assets/img/ic_close.svg" %} class="m_header-banner-close" width="30px" height="30px"></a>
+                                                  </div>
+                                                  <!--팝업 컨텐츠 영역-->
+                                                  <div class="popup_cont" id="popup_cont">
+                                                      <h5> DB - MySQL </h5>
+                                                        <p>
+                                                            <img src={% static "bootstrap/startbootstrap/assets/img/DB/DB_0.png" %}>
+                                                        
+                                                        </p>         
+
+                                                  <!--팝업 버튼 영역-->
+                                                  <div class="popup_btn" style="float: bottom; margin-top: 10px;">
+                                                      <a href="javascript:closePop_DB();">닫기</a>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        
                     </div>
+
+                    
                 </div>
             </div>
         </section>
@@ -158,36 +290,42 @@
         <footer class="footer bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
-                
-                    </div>
+
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
-                            <li class="list-inline-item me-4">
-                                
-                                <li class="list-inline-item"><a href="https://www.notion.so/8cf3caa9ec124cca9d95ca4544a669ae" target="_blank">
-                                    <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-notion.png"%} width="20px;">    
-                                    Notion
-                                </a></li>
-                                <li class="list-inline-item">⋅</li>
-                                <li class="list-inline-item"><a href="https://github.com/khb3254/jeju_cgc_2023" target="_blank">
-                                    <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-github.png"%} width="20px;">
-                                    Gitgub
-                                </a></li>
-
-                                <br>
-
-                                
-                                <li class="list-inline-item"><a href="https://jeju.pythonanywhere.com/" target="_blank">
-                                    <img src = {% static "bootstrap/startbootstrap/assets/img/dol.png"%} width="35px;">
+                            <li class="list-inline-item me-8">
+                                <li class="list-inline-item">
+                                    <a href="https://jeju.pythonanywhere.com/" target="_blank">
+                                        <img src = {% static "bootstrap/startbootstrap/assets/img/dol.png"%} width="120px;">
                                     Jeju_Web
-                                </a></li>
-                                <li class="list-inline-item">⋅</li>
-                                
-                                <li class="list-inline-item"><a href = {% static "bootstrap/startbootstrap/assets/파이널프로젝트.pdf"%} download="Jeju_ppt.pdf">
-                                    <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-ppt.png"%} width="35px;">
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 h-100 my-auto">
+                        <ul class="list-inline mb-0">
+                            <li>
+                                <li class="list-inline-item">
+                                    <a href = {% static "bootstrap/startbootstrap/assets/파이널프로젝트.pdf"%} download="Jeju_ppt.pdf">
+                                        <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-ppt.png"%} width="20px;">
                                     Jeju_ppt
-                                </a>
+                                    </a>
+                                </li>
+                                <br>
+                                <li class="list-inline-item">
+                                    <a href="https://www.notion.so/8cf3caa9ec124cca9d95ca4544a669ae" target="_blank">
+                                        <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-notion.png"%} width="20px;">    
+                                    Notion
+                                    </a>
+                                </li>
+                                <br>
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/khb3254/jeju_cgc_2023" target="_blank">
+                                        <img src = {% static "bootstrap/startbootstrap/assets/img/icons8-github.png"%} width="20px;">
+                                    Gitgub
+                                    </a>
                                 </li>
                             </li>
                         </ul>
@@ -195,6 +333,8 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
             <br>
             <div style="text-align: center;">
                 <p class="text-muted small mb-4 mb-lg-0"> 

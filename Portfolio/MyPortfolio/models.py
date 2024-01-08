@@ -20,3 +20,12 @@ class RobotsTxt(models.Model):
     class Meta:
         managed = False
         db_table = 'robots_txt'
+
+class Folder(models.Model):
+    id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
+    name = models.CharField(max_length=25)
+    address = models.CharField(max_length=200)
+
+    class Meta:
+        managed = False
+        db_table = 'folder'

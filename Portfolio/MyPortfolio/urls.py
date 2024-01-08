@@ -1,7 +1,8 @@
 from django.contrib import admin
 from django.urls import path, include
-from .views import keytalk
+from .views import robots_txt, floder
 
 urlpatterns = [
-    path("", keytalk),
+    path("", robots_txt),
+    path("", floder),
 ]

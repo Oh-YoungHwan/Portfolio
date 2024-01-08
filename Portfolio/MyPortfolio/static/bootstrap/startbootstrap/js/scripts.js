@@ -5,3 +5,40 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+
+// - python
+//팝업 띄우기 
+function openPop_python() {
+    document.getElementById("popup_layer_python").style.display = "block";
+
+}
+
+//팝업 닫기
+function closePop_python() {
+    document.getElementById("popup_layer_python").style.display = "none";
+}
+
+// - Django
+//팝업 띄우기
+function openPop_Django() {
+    document.getElementById("popup_layer_Django").style.display = "block";
+
+}
+
+//팝업 닫기
+function closePop_Django() {
+    document.getElementById("popup_layer_Django").style.display = "none";
+}
+
+// - DB
+//팝업 띄우기
+function openPop_DB() {
+    document.getElementById("popup_layer_DB").style.display = "block";
+
+}
+
+//팝업 닫기
+function closePop_DB() {
+    document.getElementById("popup_layer_DB").style.display = "none";
+}
