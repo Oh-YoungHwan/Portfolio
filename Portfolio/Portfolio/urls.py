@@ -20,5 +20,5 @@ from MyPortfolio import urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("main/", include(urls))
+    path("", include(urls))
 ]

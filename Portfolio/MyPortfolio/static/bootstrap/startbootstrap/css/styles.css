@@ -10963,3 +10963,11 @@ li.undot {
 a {
 text-decoration-line: none;
 }
+
+ul.name {
+  padding-left : 40%;
+}
+
+ul.name > li {
+  float: left;
+}

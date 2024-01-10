@@ -7,17 +7,30 @@
 // Use this file to add JavaScript to your project
 
 
-// - python
+// - Crawling
 //팝업 띄우기 
-function openPop_python() {
-    document.getElementById("popup_layer_python").style.display = "block";
+function openPop_Crawling() {
+    document.getElementById("popup_layer_Crawling").style.display = "block";
 
 }
 
 //팝업 닫기
-function closePop_python() {
-    document.getElementById("popup_layer_python").style.display = "none";
+function closePop_Crawling() {
+    document.getElementById("popup_layer_Crawling").style.display = "none";
 }
+
+// - ML
+//팝업 띄우기 
+function openPop_ML() {
+    document.getElementById("popup_layer_ML").style.display = "block";
+
+}
+
+//팝업 닫기
+function closePop_ML() {
+    document.getElementById("popup_layer_ML").style.display = "none";
+}
+
 
 // - Django
 //팝업 띄우기
