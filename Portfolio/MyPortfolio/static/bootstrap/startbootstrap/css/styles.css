@@ -10890,7 +10890,7 @@ header.masthead h1, header.masthead .h1 {
   padding-bottom: 7rem;
 }
 .testimonials .testimonial-item {
-  max-width: 18rem;
+  max-width: 20rem;
 }
 .testimonials .testimonial-item img {
   max-width: 12rem;
@@ -10964,10 +10964,15 @@ a {
 text-decoration-line: none;
 }
 
-ul.name {
-  padding-left : 40%;
+ul.text-box {
+  padding-left : 17%;
 }
 
-ul.name > li {
+ul.text-box > li {
   float: left;
+  margin-right : 10%
+}
+
+div > h4 {
+  margin : 0px;
 }
