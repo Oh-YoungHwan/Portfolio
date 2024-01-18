@@ -10890,7 +10890,7 @@ header.masthead h1, header.masthead .h1 {
   padding-bottom: 7rem;
 }
 .testimonials .testimonial-item {
-  max-width: 22rem;
+  max-width: 25rem;
 }
 .testimonials .testimonial-item img {
   max-width: 12rem;
@@ -10975,4 +10975,10 @@ ul.text-box > li {
 
 div > h4 {
   margin : 0px;
+}
+
+* {
+  font-family: "Yeongdeok_Sea";
+  src : url('../assets/Yeongdeok_Sea.ttf') format('truetype');
+  font-weight: 500;
 }
